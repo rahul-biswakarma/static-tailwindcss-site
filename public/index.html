@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fillo</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Teko:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="font-family: Montserrat;"
+    class="relative w-full h-[100vh] bg-[#d5ff40] text-primary-text font-montserrat overflow-hidden">
+
+
+    <header class="relative flex justify-between items-center py-6 px-[5rem] font-bold z-50">
+        <div class="text-primary-text font-[700] text-[1.65rem] flex gap-[5px]">
+            <img src="./assets/logo.png" alt="logo" />
+            Fillo
+        </div>
+        <nav>
+            <ul class="list-none flex gap-14">
+                <li>
+                    <a href="#">
+                        <span class="px-4 hover:underline cursor-pointer">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="px-4 hover:underline cursor-pointer">Contacts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="px-4 hover:underline cursor-pointer">Carrer</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <button class="flex items-center rounded-full px-[25px] py-[9px] border-2 border-black bg-[#ccff01]">Sign
+                Up</button>
+        </div>
+    </header>
+
+    <main class="flex flex-col w-full px-[5rem] z-50">
+        <section class="relative flex items-center justify-between h-[75vh]">
+
+            <div class="w-[70%]">
+                <div class="flex gap-4 mb-6">
+                    <div class="w-[30px] h-[30px] rounded-full bg-black"></div>
+                    <div class="w-[30px] h-[30px] rounded-full bg-black"></div>
+                </div>
+                <h1 style="font-family: Teko;"
+                    class="uppercase font-bold text-primary-text text-[9rem] leading-[90%] font-teko">
+                    High Tech Financial Service
+                </h1>
+            </div>
+            <div class="flex flex-col max-w-[30%] gap-8">
+                <div class="w-full flex justify-center">
+                    <img src="assets/arrow.png" alt="arrow" />
+                </div>
+                <p class="font-[500] leading-7">You can earn unlimited cashback, make payments online, and pay spill
+                    bills with no fees.You can earn unlimited cashback, make payments online, and pay spill
+                    bills with no fees.</p>
+            </div>
+        </section>
+
+    </main>
+    <div class="bg-black w-full h-[300px] mt-[2rem] flex justify-center">
+        <button
+            class="rounded-full h-[60px] min-w-[150px] px-[25px] py-[9px] border-2 border-black bg-[#ccff01] mt-[-30px] font-bold text-center flex justify-evenly items-center">Start
+            <svg class="h-[35px] stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <path d="M24 40 8 24l2.1-2.1 12.4 12.4V8h3v26.3l12.4-12.4L40 24Z" />
+            </svg>
+        </button>
+    </div>
+
+    <img class="absolute top-[-5.2rem] overflow-hidden scale-150 opacity-40 z-0" src="./assets/bg-pattern.svg" alt="">
+
+</body>
+
+</html>
